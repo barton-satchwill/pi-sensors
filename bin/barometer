@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+
+import sensors.barometer
+print sensors.barometer.getReading()
+print sensors.barometer.do_it()

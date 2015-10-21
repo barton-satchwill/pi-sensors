@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+bin/barometer
+docs/notes.txt
+sensors/__init__.py
+sensors/test.py
+sensors.egg-info/PKG-INFO
+sensors.egg-info/SOURCES.txt
+sensors.egg-info/dependency_links.txt
+sensors.egg-info/requires.txt
+sensors.egg-info/top_level.txt
+sensors/barometer/__init__.py
+sensors/barometer/barometer.py
+sensors/util/__init__.py
+sensors/util/simpleMovingAverage.py

@@ -1,0 +1,52 @@
+root@bartworld:/home/barton/projects/barometer-0.0.1# python setup.py develop
+running develop
+running egg_info
+writing requirements to barometer.egg-info/requires.txt
+writing barometer.egg-info/PKG-INFO
+writing top-level names to barometer.egg-info/top_level.txt
+writing dependency_links to barometer.egg-info/dependency_links.txt
+reading manifest file 'barometer.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'barometer.egg-info/SOURCES.txt'
+running build_ext
+Creating /usr/local/lib/python2.7/dist-packages/barometer.egg-link (link to .)
+barometer 0.0.1 is already the active version in easy-install.pth
+Installing barometer script to /usr/local/bin
+
+Installed /home/barton/projects/barometer-0.0.1
+Processing dependencies for barometer==0.0.1
+Searching for Adafruit-BMP>=1.5.0
+Best match: Adafruit-BMP 1.5.0
+Downloading https://github.com/adafruit/Adafruit_Python_BMP/tarball/master#egg=Adafruit-BMP-1.5.0
+Processing master
+Writing /tmp/easy_install-upOt4A/adafruit-Adafruit_Python_BMP-e753669/setup.cfg
+Running adafruit-Adafruit_Python_BMP-e753669/setup.py -q bdist_egg --dist-dir /tmp/easy_install-upOt4A/adafruit-Adafruit_Python_BMP-e753669/egg-dist-tmp-miJ_fA
+zip_safe flag not set; analyzing archive contents...
+Moving Adafruit_BMP-1.5.0-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+Adding Adafruit-BMP 1.5.0 to easy-install.pth file
+
+Installed /usr/local/lib/python2.7/dist-packages/Adafruit_BMP-1.5.0-py2.7.egg
+Searching for Adafruit-GPIO>=0.6.5
+Best match: Adafruit-GPIO 0.6.5
+Downloading https://github.com/adafruit/Adafruit_Python_GPIO/tarball/master#egg=Adafruit-GPIO-0.6.5
+Processing master
+Writing /tmp/easy_install-12IJws/adafruit-Adafruit_Python_GPIO-cdf7a7b/setup.cfg
+Running adafruit-Adafruit_Python_GPIO-cdf7a7b/setup.py -q bdist_egg --dist-dir /tmp/easy_install-12IJws/adafruit-Adafruit_Python_GPIO-cdf7a7b/egg-dist-tmp-QzgV0q
+zip_safe flag not set; analyzing archive contents...
+Moving Adafruit_GPIO-0.9.3-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+Adding Adafruit-GPIO 0.9.3 to easy-install.pth file
+
+Installed /usr/local/lib/python2.7/dist-packages/Adafruit_GPIO-0.9.3-py2.7.egg
+Searching for spidev
+Reading https://pypi.python.org/simple/spidev/
+Best match: spidev 3.1
+Downloading https://pypi.python.org/packages/source/s/spidev/spidev-3.1.tar.gz#md5=fe9146030263c62858051f3485afa313
+Processing spidev-3.1.tar.gz
+Writing /tmp/easy_install-5Uc7eG/spidev-3.1/setup.cfg
+Running spidev-3.1/setup.py -q bdist_egg --dist-dir /tmp/easy_install-5Uc7eG/spidev-3.1/egg-dist-tmp-7XP7rY
+zip_safe flag not set; analyzing archive contents...
+Moving spidev-3.1-py2.7-linux-x86_64.egg to /usr/local/lib/python2.7/dist-packages
+Adding spidev 3.1 to easy-install.pth file
+
+Installed /usr/local/lib/python2.7/dist-packages/spidev-3.1-py2.7-linux-x86_64.egg
+Finished processing dependencies for barometer==0.0.1
