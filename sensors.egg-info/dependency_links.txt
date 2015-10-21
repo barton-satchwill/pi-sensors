@@ -1,1 +1,0 @@
-https://github.com/adafruit/Adafruit_Python_BMP/tarball/master#egg=Adafruit-BMP-1.5.0
