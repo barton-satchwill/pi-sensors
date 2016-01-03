@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # ------------------ HC-SR04 ----------------------
 # Trigger Input Pulse with: 10uS
 # Ranging Distance: 2cm - 400cm or 1 inch - 13ft 
@@ -5,6 +7,13 @@
 # Max Echo Time: 38ms if no obstacle
 # Cycle Period: no less than 50ms
 # -------------------------------------------------
+#            10k
+# echo -----/\/\/\-----o GPIO 33
+# trig ----------------o GPIO 32
+# vcc -----------------o 5V
+# gnd -----------------o gnd
+# -------------------------------------------------
+
 
 import time
 import RPi.GPIO as GPIO
@@ -52,12 +61,14 @@ def ping():
 
 
 print ("---- sonar ----")
+avgDistance = Average('distance', 10)
+
 try:
     while True:
         raw_distance = ping()
         distance = round(raw_distance/precision) * precision
-        print "range: {0:4.1f}".format(distance)
-        time.sleep(0.25)
+        print "range: {0:4.1f}".format(avgDistance.getAverage(distance))
+        time.sleep(0.010)
 
 except KeyboardInterrupt:
     print "exiting..."
